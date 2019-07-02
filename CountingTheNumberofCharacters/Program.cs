@@ -21,7 +21,6 @@ namespace CountingTheNumberofCharacters
             Console.WriteLine("For Example: \n\n" +
                 "\t What is your input? Basketball \n" +
                 "\t Basketball has 10 characters. \n");
-
             Console.WriteLine("---------------------------------------------------------------------- \n");
 
             Console.Write("What is your input? ");
@@ -29,7 +28,7 @@ namespace CountingTheNumberofCharacters
             numberOfCharactersInUserInput = userInput.Length;
             GetNumberOfCharacters( userInput,  numberOfCharactersInUserInput);
 
-            Console.WriteLine($"{userInput} has {numberOfCharactersInUserInput} characters \n");
+            Console.WriteLine($"\"{userInput}\" has {numberOfCharactersInUserInput} characters \n");
 
 
         }
