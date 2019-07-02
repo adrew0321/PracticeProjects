@@ -13,6 +13,9 @@ namespace CountingTheNumberofCharacters
             // The code provided will create a program that prompts for an input string and displays output that shows the input string and the number of characters the string contains..
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
 
+            string userInput;
+            int numberOfCharactersInUserInput;
+
             Console.WriteLine("Counting The Number Of Characters \n");
             Console.WriteLine("This program will take in the users input and count the number of characters in the users response \n");
             Console.WriteLine("For Example: \n\n" +
@@ -22,12 +25,21 @@ namespace CountingTheNumberofCharacters
             Console.WriteLine("---------------------------------------------------------------------- \n");
 
             Console.Write("What is your input? ");
-            string userInput = Console.ReadLine().Trim();
-            int numberOfCharactersInUserInput = userInput.Length;
+            userInput = Console.ReadLine();
+            numberOfCharactersInUserInput = userInput.Length;
+            GetNumberOfCharacters( userInput,  numberOfCharactersInUserInput);
 
             Console.WriteLine($"{userInput} has {numberOfCharactersInUserInput} characters \n");
 
 
         }
+
+        private static void GetNumberOfCharacters(string input, int numberOfCharacters)
+        {
+            input = Console.ReadLine().Trim();
+            numberOfCharacters = input.Length;
+        }
+
+
     }
 }
