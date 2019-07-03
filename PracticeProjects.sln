@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PracticeProjects", "PracticeProjects\PracticeProjects.pyproj", "{C3F04DCF-5269-4E50-B7AE-6EC0F78AA00D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{B8A1E56D-DC51-44FE-8ADE-FA7DE738543E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingTheNumberofCharacters", "CountingTheNumberofCharacters\CountingTheNumberofCharacters.csproj", "{28183F5D-96F8-4BB2-AD89-73A650E83921}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingQuotes", "PrintingQuotes\PrintingQuotes.csproj", "{FF2EC67B-FB48-4BEF-A97E-AEC63B77CD98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProjectOrchestrator", "PracticeProjectOrchestrator\PracticeProjectOrchestrator.csproj", "{5A19CF02-C3EC-43C0-BE06-2F1C4AE0E2B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C3F04DCF-5269-4E50-B7AE-6EC0F78AA00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3F04DCF-5269-4E50-B7AE-6EC0F78AA00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A1E56D-DC51-44FE-8ADE-FA7DE738543E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8A1E56D-DC51-44FE-8ADE-FA7DE738543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A1E56D-DC51-44FE-8ADE-FA7DE738543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,6 +29,10 @@ Global
 		{FF2EC67B-FB48-4BEF-A97E-AEC63B77CD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF2EC67B-FB48-4BEF-A97E-AEC63B77CD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF2EC67B-FB48-4BEF-A97E-AEC63B77CD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A19CF02-C3EC-43C0-BE06-2F1C4AE0E2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A19CF02-C3EC-43C0-BE06-2F1C4AE0E2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A19CF02-C3EC-43C0-BE06-2F1C4AE0E2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A19CF02-C3EC-43C0-BE06-2F1C4AE0E2B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
